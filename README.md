@@ -24,5 +24,15 @@ Everything else will be included when my Tesla is connected to my account and I 
 # Contributing
 All contributions are welcome and greatly appreciated!
 
+# Dontation
+Maintaining this project isn't effortless, or free. If you would like to kick in and help me cover those costs, that would be awesome. If you don't, no problem; just share your love and show your support.
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="4GWXFMNWKC7UL" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_DE/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
 # Disclaimer
 Please note that the use of the Tesla API in general and this software in particular is not endorsed by Tesla. Use at your own risk.
