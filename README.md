@@ -21,6 +21,11 @@ Up to know the following is included:
 
 Everything else will be included when my Tesla is connected to my account and I am able to test the tasks.
 
+# Dependencies
+
+- [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
+- [AutoTools](https://play.google.com/store/apps/details?id=com.joaomgcd.autotools) (can be removed with JavaScriplets to read JSON and removing AutoTools Text action)
+
 # Contributing
 All contributions are welcome and greatly appreciated!
 
