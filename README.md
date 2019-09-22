@@ -10,6 +10,7 @@ The idea was born during discussing a [feature request](https://github.com/adria
 # Security
 Why not using [Tasker Plugin for Tesla](https://play.google.com/store/apps/details?id=com.crazydog.teslatasker)? You never know what a closed source application will do with your credentials :-)
 
+So this Project ist different.
 Access token is generated: asked for Tesla account data with scene, store data only in local variable to get access token from Tesla and than destroy local copy of access data.
 
 Token will be refreshed when exipres in 10 or less days.
