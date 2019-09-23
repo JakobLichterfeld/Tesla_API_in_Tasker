@@ -28,11 +28,37 @@ Token will be refreshed when exipres in 10 or less days.
 ## Features
 Up to know the following is included:
 
-- Token get/refresh
-- get vehicles
-- wakeup
+- [x] Token get/refresh (OAuth)
+- [x] get vehicles
+- [ ] get vehicle
+- [x] wake up
+- [ ] door unlock
+- [ ] door lock
+- [ ] honk horn
+- [ ] flash lights
+- [ ] get climate state
+- [ ] auto conditioning start
+- [ ] auto conditioning stop
+- [ ] set temps
+- [ ] get charge state
+- [ ] set charge limit
+- [ ] set charge limit max range
+- [ ] set charge limit standard
+- [ ] remote start drive
+- [ ] charge port door open
+- [ ] charge port door close
+- [ ] charge start
+- [ ] charge stop
+- [ ] upcoming calendar entries
+- [ ] set valet mode
+- [ ] reset valet pin
+- [ ] speed limit activate
+- [ ] speed limit deactivate
+- [ ] speed limit set limit
+- [ ] speed limit clear pin
+- [ ] get drive state
 
-Everything else will be included when my Tesla is connected to my account and I am able to test the tasks.
+Everything not yet included will be when my Tesla is connected to my account and I am able to test the tasks.
 
 ## Screenshots
 <p align="center"> 
