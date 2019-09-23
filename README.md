@@ -8,6 +8,11 @@ This is a [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.a
 
 The idea was born during discussing a [feature request](https://github.com/adriankumpf/teslamate/issues/156) for [TeslaMate](https://github.com/adriankumpf/teslamate)
 
+## Screenshots
+<p align="center"> 
+  <img src="screenshots/tasks.png" alt="Tasks" title="Tasks" width="180" height="320" /> <img src="screenshots/scenes.png" alt="Scenes" title="Scenes" width="180" height="320" />
+</p>
+
 ## Table of contents
 - [Security](#security)
 - [Features](#features)
@@ -26,8 +31,6 @@ Access token is generated: asked for Tesla account data with Tasker scene, store
 Token will be refreshed when exipres in 10 or less days.
 
 ## Features
-Up to know the following is included:
-
 - [x] Token get/refresh (OAuth)
 - [x] get vehicles
 - [ ] get vehicle
@@ -71,11 +74,6 @@ Up to know the following is included:
 - [ ] speed limit clear pin
 
 Everything not yet included will be when my Tesla is connected to my account and I am able to test the tasks.
-
-## Screenshots
-<p align="center"> 
-  <img src="screenshots/tasks.png" alt="Tasks" title="Tasks" width="180" height="320" /> <img src="screenshots/scenes.png" alt="Scenes" title="Scenes" width="180" height="320" />
-</p>
 
 ## Dependencies
 - [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
