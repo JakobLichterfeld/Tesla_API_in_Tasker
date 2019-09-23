@@ -18,6 +18,7 @@ The idea was born during discussing a [feature request](https://github.com/adria
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Dependencies](#dependencies)
+- [Installation](#installation)
 - [Contributing](#contributing)
 - [Dontation](#dontation)
 - [Disclaimer](#disclaimer)
@@ -78,6 +79,9 @@ Everything not yet included will be when my Tesla is connected to my account and
 ## Dependencies
 - [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
 - [AutoTools](https://play.google.com/store/apps/details?id=com.joaomgcd.autotools) (can be removed with JavaScriplets to read JSON and removing AutoTools Text action)
+
+## Installation
+Import [Tesla_API_in_Tasker.prj.xml](https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/blob/master/Tesla_API_in_Tasker.prj.xml) on your Android Phone using Tasker, see [Tasker-FAQs](https://tasker.joaoapps.com/userguide/en/faqs/faq-how.html#q) on how to import xml files.
 
 ## Contributing
 All contributions are welcome and greatly appreciated!
