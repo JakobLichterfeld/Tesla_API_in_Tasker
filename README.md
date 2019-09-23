@@ -8,6 +8,15 @@ This is a [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.a
 
 The idea was born during discussing a [feature request](https://github.com/adriankumpf/teslamate/issues/156) for [TeslaMate](https://github.com/adriankumpf/teslamate)
 
+## Table of contents
+- [Security](#security)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+- [Dontation](#dontation)
+- [Disclaimer](#disclaimer)
+
 ## Security
 Why not using [Tasker Plugin for Tesla](https://play.google.com/store/apps/details?id=com.crazydog.teslatasker)? You never know what a closed source application will do with your credentials :-)
 
@@ -26,9 +35,11 @@ Up to know the following is included:
 Everything else will be included when my Tesla is connected to my account and I am able to test the tasks.
 
 ## Screenshots
+<p align="center"> 
+  <img src="screenshots/tasks.png" alt="Tasks" title="Tasks" width="180" height="320" /> <img src="screenshots/scenes.png" alt="Scenes" title="Scenes" width="180" height="320" />
+</p>
 
 ## Dependencies
-
 - [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
 - [AutoTools](https://play.google.com/store/apps/details?id=com.joaomgcd.autotools) (can be removed with JavaScriplets to read JSON and removing AutoTools Text action)
 
@@ -37,13 +48,11 @@ All contributions are welcome and greatly appreciated!
 
 ## Dontation
 Maintaining this project isn't effortless, or free. If you would like to kick in and help me cover those costs, that would be awesome. If you don't, no problem; just share your love and show your support.
-
 <p align="center">
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4GWXFMNWKC7UL&source=url">
     <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate with PayPal" />
   </a>
 </p>
-
 
 ## Disclaimer
 Please note that the use of the Tesla API in general and this software in particular is not endorsed by Tesla. Use at your own risk.
