@@ -32,6 +32,7 @@ Up to know the following is included:
 - [x] get vehicles
 - [ ] get vehicle
 - [x] wake up
+- [ ] set sentry mode
 - [ ] door unlock
 - [ ] door lock
 - [ ] honk horn
