@@ -1,5 +1,5 @@
 # Tesla API in Tasker
-[![](https://img.shields.io/github/v/release/JakobLichterfeld/Tesla_API_in_Tasker)](https://img.shields.io/github/v/release/JakobLichterfeld/Tesla_API_in_Tasker)
+[![](https://img.shields.io/github/v/release/JakobLichterfeld/Tesla_API_in_Tasker)](https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/releases/latest)
 [![](https://img.shields.io/badge/Donate-PayPal-informational.svg?logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4GWXFMNWKC7UL&source=url)
 
 Access the Tesla API in Tasker (Android App)
