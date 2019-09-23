@@ -45,5 +45,5 @@ Maintaining this project isn't effortless, or free. If you would like to kick in
 </p>
 
 
-# Disclaimer
+## Disclaimer
 Please note that the use of the Tesla API in general and this software in particular is not endorsed by Tesla. Use at your own risk.
