@@ -44,7 +44,7 @@ Up to know the following is included:
 - [ ] set charge limit
 - [ ] set charge limit max range
 - [ ] set charge limit standard
-- [ ] remote start drive
+- [ ] ~remote start drive~ (will not be included, because current tesla account password is needed)
 - [ ] charge port door open
 - [ ] charge port door close
 - [ ] charge start
