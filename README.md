@@ -35,21 +35,33 @@ Up to know the following is included:
 - [ ] set sentry mode
 - [ ] door unlock
 - [ ] door lock
+- [ ] actuate trunk
 - [ ] honk horn
 - [ ] flash lights
+- [ ] media toggle playback
+- [ ] set media next track
+- [ ] set media prev track
+- [ ] set media next fav
+- [ ] set media prev fav
+- [ ] set media volume up
+- [ ] set media volume down
+- [ ] set navigation request
 - [ ] get climate state
+- [ ] set temps
 - [ ] auto conditioning start
 - [ ] auto conditioning stop
-- [ ] set temps
+- [ ] set remote seat heater request
+- [ ] set remote steering wheel heater request
 - [ ] get charge state
 - [ ] set charge limit
 - [ ] set charge limit max range
 - [ ] set charge limit standard
-- [ ] ~remote start drive~ (will not be included, because current tesla account password is needed)
 - [ ] charge port door open
 - [ ] charge port door close
 - [ ] charge start
 - [ ] charge stop
+- [ ] get drive state
+- [ ] ~remote start drive~ (will not be included, because current tesla account password is needed)
 - [ ] upcoming calendar entries
 - [ ] set valet mode
 - [ ] reset valet pin
@@ -57,7 +69,6 @@ Up to know the following is included:
 - [ ] speed limit deactivate
 - [ ] speed limit set limit
 - [ ] speed limit clear pin
-- [ ] get drive state
 
 Everything not yet included will be when my Tesla is connected to my account and I am able to test the tasks.
 
