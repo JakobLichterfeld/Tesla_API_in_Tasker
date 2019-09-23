@@ -1,5 +1,5 @@
 # Tesla API in Tasker
-[![](https://img.shields.io/badge/Donate-PayPal-ff69b4.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4GWXFMNWKC7UL&source=url)
+[![](https://img.shields.io/badge/Donate-PayPal-informational.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4GWXFMNWKC7UL&source=url)
 
 Access the Tesla API in Tasker (Android App)
 
