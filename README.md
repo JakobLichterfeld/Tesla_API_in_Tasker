@@ -86,7 +86,7 @@ All contributions are welcome and greatly appreciated!
 Maintaining this project isn't effortless, or free. If you would like to kick in and help me cover those costs, that would be awesome. If you don't, no problem; just share your love and show your support.
 <p align="center">
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4GWXFMNWKC7UL&source=url">
-    <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate with PayPal" />
+    <img src="paypal-donate-button.png" alt="Donate with PayPal" />
   </a>
 </p>
 
