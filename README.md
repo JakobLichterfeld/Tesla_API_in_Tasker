@@ -14,14 +14,16 @@ The idea was born during discussing a [feature request](https://github.com/adria
 </p>
 
 ## Table of contents
-- [Security](#security)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Dependencies](#dependencies)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [Dontation](#dontation)
-- [Disclaimer](#disclaimer)
+- [Tesla API in Tasker](#tesla-api-in-tasker)
+  - [Screenshots](#screenshots)
+  - [Table of contents](#table-of-contents)
+  - [Security](#security)
+  - [Features](#features)
+  - [Dependencies](#dependencies)
+  - [Installation](#installation)
+  - [Contributing](#contributing)
+  - [Dontation](#dontation)
+  - [Disclaimer](#disclaimer)
 
 ## Security
 Why not using [Tasker Plugin for Tesla](https://play.google.com/store/apps/details?id=com.crazydog.teslatasker)? You never know what a closed source application will do with your credentials :-)
@@ -90,7 +92,7 @@ All contributions are welcome and greatly appreciated!
 Maintaining this project isn't effortless, or free. If you would like to kick in and help me cover those costs, that would be awesome. If you don't, no problem; just share your love and show your support.
 <p align="center">
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4GWXFMNWKC7UL&source=url">
-    <img src="paypal-donate-button.png" alt="Donate with PayPal" />
+    <img src="screenshots/paypal-donate-button.png" alt="Donate with PayPal" />
   </a>
 </p>
 
