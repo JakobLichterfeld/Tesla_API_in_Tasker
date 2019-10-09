@@ -38,12 +38,12 @@ Token will be refreshed when exipres in 10 or less days.
 - [x] get vehicles
 - [ ] get vehicle
 - [x] wake up
-- [ ] set sentry mode
-- [ ] door unlock
-- [ ] door lock
-- [ ] actuate trunk
-- [ ] honk horn
-- [ ] flash lights
+- [x] set sentry mode
+- [x] door unlock
+- [x] door lock
+- [x] actuate trunk
+- [x] honk horn
+- [x] flash lights
 - [ ] media toggle playback
 - [ ] set media next track
 - [ ] set media prev track
