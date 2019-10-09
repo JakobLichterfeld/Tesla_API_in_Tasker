@@ -25,7 +25,7 @@
   
 ### Bug Fixes
 - use of id instead of vehicle_id
-- 
+
 ## [0.1.1] - 2019-09-23
 
 ### New Features
