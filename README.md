@@ -84,6 +84,7 @@ Everything not yet included will be when my Tesla is connected to my account and
 
 ## Installation
 Import [Tesla_API_in_Tasker.prj.xml](https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/blob/master/Tesla_API_in_Tasker.prj.xml) on your Android Phone using Tasker, see [Tasker-FAQs](https://tasker.joaoapps.com/userguide/en/faqs/faq-how.html#q) on how to import xml files.
+It is recommended to backup your data first.
 
 ## Contributing
 All contributions are welcome and greatly appreciated!
