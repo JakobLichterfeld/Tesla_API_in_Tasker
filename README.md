@@ -10,7 +10,9 @@ The idea was born during discussing a [feature request](https://github.com/adria
 
 ## Screenshots
 <p align="center"> 
-  <img src="screenshots/tasks.png" alt="Tasks" title="Tasks" width="180" height="320" /> <img src="screenshots/scenes.png" alt="Scenes" title="Scenes" width="180" height="320" />
+  <img src="screenshots/tasks.png" alt="Tasks" title="Tasks" width="180" height="320" /> 
+  <img src="screenshots/tasks_2.png" alt="Tasks 2" title="Tasks 2" width="180" height="320" /> 
+  <img src="screenshots/scenes.png" alt="Scenes" title="Scenes" width="180" height="320" />
 </p>
 
 ## Table of contents
@@ -38,22 +40,22 @@ Token will be refreshed when exipres in 10 or less days.
 - [x] get vehicles
 - [ ] get vehicle
 - [x] wake up
-- [x] set sentry mode
+- [x] set sentry mode (true|false default:true)
 - [x] door unlock
 - [x] door lock
-- [x] actuate trunk
+- [x] actuate trunk (rear|front default:rear)
 - [x] honk horn
 - [x] flash lights
-- [ ] media toggle playback
-- [ ] set media next track
-- [ ] set media prev track
-- [ ] set media next fav
-- [ ] set media prev fav
-- [ ] set media volume up
-- [ ] set media volume down
+- [x] media toggle playback
+- [x] media next track
+- [x] media prev track
+- [x] media next fav
+- [x] media prev fav
+- [x] media volume up
+- [x] media volume down
 - [ ] set navigation request
 - [ ] get climate state
-- [ ] set temps
+- [x] set temps (driver temp, passenger temp default:21.0)
 - [ ] auto conditioning start
 - [ ] auto conditioning stop
 - [ ] set remote seat heater request
@@ -83,7 +85,7 @@ Everything not yet included will be when my Tesla is connected to my account and
 - [AutoTools](https://play.google.com/store/apps/details?id=com.joaomgcd.autotools) (can be removed with JavaScriplets to read JSON and removing AutoTools Text action)
 
 ## Installation
-Import [Tesla_API_in_Tasker.prj.xml](https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/blob/master/Tesla_API_in_Tasker.prj.xml) on your Android Phone using Tasker, see [Tasker-FAQs](https://tasker.joaoapps.com/userguide/en/faqs/faq-how.html#q) on how to import xml files.
+Install [Dependencies](#dependencies). Import [Tesla_API_in_Tasker.prj.xml](https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/blob/master/Tesla_API_in_Tasker.prj.xml) on your Android Phone using Tasker, see [Tasker-FAQs](https://tasker.joaoapps.com/userguide/en/faqs/faq-how.html#q) on how to import xml files.
 It is recommended to backup your data first.
 
 ## Contributing
