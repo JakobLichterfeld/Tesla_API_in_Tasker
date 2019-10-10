@@ -3,11 +3,29 @@
 ## [Unreleased]
 
 ### New Features
-  
+
 ### Enhancements
   
 ### Bug Fixes
 
+## [0.3.0] - 2019-10-10
+### New Features
+- media toggle playback
+- media next track
+- media prev track
+- media next fav
+- media prev fav
+- media volume up
+- media volume down
+- set temps (driver temp, passenger temp default:21.0)
+   
+### Enhancements
+- Installations steps: firs install dependencies added to be clear
+  
+### Bug Fixes
+- set sentry mode (true|false default:true) now works as expected, activation and deactivation possible ([https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/issues/4](#4))
+- actuate trunk (rear|front default:rear) now works as expected ([https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/issues/5](#5))
+  
 ## [0.2.0] - 2019-10-09
 ### New Features
 - set sentry mode (true|false default:true) - only false=deactivation working so far
