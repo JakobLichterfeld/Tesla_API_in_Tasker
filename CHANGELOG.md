@@ -7,6 +7,13 @@
 - auto conditioning stop
 - set remote seat heater request (heater=0..5,  level=0...3 default:0=driver,3=max)
 - set remote steering wheel heater request (true|false default:true)
+- set charge limit (0...100 default:80)
+- set charge limit max range
+- set charge limit standard
+- charge port door open
+- charge port door close
+- charge start
+- charge stop
 
 ### Enhancements
 - new Default value if no Parameter given: set temps (driver temp, passenger temp default:20.5)
