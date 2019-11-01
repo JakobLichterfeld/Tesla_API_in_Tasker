@@ -3,6 +3,8 @@
 ## [Unreleased]
 
 ### New Features
+- auto conditioning start
+- auto conditioning stop
 
 ### Enhancements
 - new Default value of no Parameter given: set temps (driver temp, passenger temp default:20.5)
