@@ -5,6 +5,7 @@
 ### New Features
 
 ### Enhancements
+- new Default value of no Parameter given: set temps (driver temp, passenger temp default:20.5)
   
 ### Bug Fixes
 
