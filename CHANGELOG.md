@@ -9,7 +9,7 @@
 - set remote steering wheel heater request (true|false default:true)
 
 ### Enhancements
-- new Default value of no Parameter given: set temps (driver temp, passenger temp default:20.5)
+- new Default value if no Parameter given: set temps (driver temp, passenger temp default:20.5)
   
 ### Bug Fixes
 
