@@ -6,6 +6,7 @@
 - auto conditioning start
 - auto conditioning stop
 - set remote seat heater request (heater=0..5,  level=0...3 default:0=driver,3=max)
+- set remote steering wheel heater request (true|false default:true)
 
 ### Enhancements
 - new Default value of no Parameter given: set temps (driver temp, passenger temp default:20.5)
