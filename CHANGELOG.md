@@ -10,8 +10,8 @@
 - set charge limit (0...100 default:80)
 - set charge limit max range
 - set charge limit standard
-- charge port door open (untested)
-- charge port door close (untested)
+- charge port door open
+- charge port door close
 - charge start (untested)
 - charge stop (untested)
 
