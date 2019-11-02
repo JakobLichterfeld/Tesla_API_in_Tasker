@@ -10,13 +10,13 @@
 - set charge limit (0...100 default:80)
 - set charge limit max range
 - set charge limit standard
-- charge port door open
-- charge port door close
-- charge start
-- charge stop
+- charge port door open (untested)
+- charge port door close (untested)
+- charge start (untested)
+- charge stop (untested)
 
 ### Enhancements
-- new Default value if no Parameter given: set temps (driver temp, passenger temp default:20.5)
+- new default value if no parameter given: set temps (driver temp, passenger temp default:20.5)
   
 ### Bug Fixes
 
