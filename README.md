@@ -12,10 +12,10 @@ The idea was born during discussing a [feature request](https://github.com/adria
 ## Screenshots
 
 <p align="center">
-  ![Tasks](screenshots/tasks.png =180x320)
-  ![Tasks 2](screenshots/tasks_2.png =180x320)
-  ![Tasks 3](screenshots/tasks_3.png =180x320)
-  ![Scenes](screenshots/scenes.png =180x320)
+  ![Tasks](./screenshots/tasks.png =180x320)
+  ![Tasks 2](./screenshots/tasks_2.png =180x320)
+  ![Tasks 3](./screenshots/tasks_3.png =180x320)
+  ![Scenes](./screenshots/scenes.png =180x320)
 </p>
 
 ## Table of contents
