@@ -61,7 +61,7 @@ Token will be refreshed when exipres in 10 or less days.
 - [x] media volume down
 - [ ] set navigation request
 - [ ] get climate state
-- [x] set temps (driver temp, passenger temp default:21.0)
+- [x] set temps (driver temp, passenger temp default:20.5)
 - [x] auto conditioning start
 - [x] auto conditioning stop
 - [x] set remote seat heater request
