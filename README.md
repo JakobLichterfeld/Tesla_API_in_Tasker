@@ -11,11 +11,11 @@ The idea was born during discussing a [feature request](https://github.com/adria
 
 ## Screenshots
 
-<p align="center">
-  ![Tasks](./screenshots/tasks.png =180x320)
-  ![Tasks 2](./screenshots/tasks_2.png =180x320)
-  ![Tasks 3](./screenshots/tasks_3.png =180x320)
-  ![Scenes](./screenshots/scenes.png =180x320)
+<p align="center"> 
+  <img src="screenshots/tasks.png" alt="Tasks" title="Tasks" width="180" height="320" /> 
+  <img src="screenshots/tasks_2.png" alt="Tasks 2" title="Tasks 2" width="180" height="320" /> 
+  <img src="screenshots/tasks_3.png" alt="Tasks 3" title="Tasks 3" width="180" height="320" /> 
+  <img src="screenshots/scenes.png" alt="Scenes" title="Scenes" width="180" height="320" />
 </p>
 
 ## Table of contents
@@ -103,6 +103,7 @@ All contributions are welcome and greatly appreciated!
 ## Dontation
 
 Maintaining this project isn't effortless, or free. If you would like to kick in and help me cover those costs, that would be awesome. If you don't, no problem; just share your love and show your support.
+
 <p align="center">
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4GWXFMNWKC7UL&source=url">
     <img src="screenshots/paypal-donate-button.png" alt="Donate with PayPal" />
