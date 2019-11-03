@@ -11,10 +11,10 @@ The idea was born during discussing a [feature request](https://github.com/adria
 
 ## Screenshots
 
-<p align="center"> 
-  <img src="screenshots/tasks.png" alt="Tasks" title="Tasks" width="180" height="320" /> 
-  <img src="screenshots/tasks_2.png" alt="Tasks 2" title="Tasks 2" width="180" height="320" /> 
-  <img src="screenshots/tasks_3.png" alt="Tasks 3" title="Tasks 3" width="180" height="320" /> 
+<p align="center">
+  <img src="screenshots/tasks.png" alt="Tasks" title="Tasks" width="180" height="320" />
+  <img src="screenshots/tasks_2.png" alt="Tasks 2" title="Tasks 2" width="180" height="320" />
+  <img src="screenshots/tasks_3.png" alt="Tasks 3" title="Tasks 3" width="180" height="320" />
   <img src="screenshots/scenes.png" alt="Scenes" title="Scenes" width="180" height="320" />
 </p>
 
@@ -27,18 +27,20 @@ The idea was born during discussing a [feature request](https://github.com/adria
   - [Features](#features)
   - [Dependencies](#dependencies)
   - [Installation](#installation)
+  - [Update](#update)
+  - [Usage](#usage)
   - [Contributing](#contributing)
-  - [Dontation](#dontation)
+  - [Donation](#donation)
   - [Disclaimer](#disclaimer)
 
 ## Security
 
 Why not using [Tasker Plugin for Tesla](https://play.google.com/store/apps/details?id=com.crazydog.teslatasker)? You never know what a closed source application will do with your credentials :-)
 
-So this Project ist different.
+So this Project is different.
 Access token is generated: asked for Tesla account data with Tasker scene, store data only in local variable to get access token from Tesla and than destroy local copy of access data.
 
-Token will be refreshed when exipres in 10 or less days.
+Token will be refreshed when expires in 10 or less days.
 
 ## Features
 
@@ -64,10 +66,10 @@ Token will be refreshed when exipres in 10 or less days.
 - [x] set temps (driver temp, passenger temp default:20.5)
 - [x] auto conditioning start
 - [x] auto conditioning stop
-- [x] set remote seat heater request
-- [x] set remote steering wheel heater request
+- [x] set remote seat heater request (heater=0..5,  level=0...3 default:0=driver,3=max)
+- [x] set remote steering wheel heater request (true|false default:true)
 - [ ] get charge state
-- [x] set charge limit
+- [x] set charge limit (0...100 default:80)
 - [x] set charge limit max range
 - [x] set charge limit standard
 - [x] charge port door open
@@ -75,7 +77,7 @@ Token will be refreshed when exipres in 10 or less days.
 - [x] charge start (untested)
 - [x] charge stop (untested)
 - [ ] get drive state
-- [ ] ~remote start drive~ (will not be included, because current tesla account password is needed)
+- [ ] ~remote start drive~ (will not be included, because current Tesla account password is needed)
 - [ ] upcoming calendar entries
 - [ ] set valet mode
 - [ ] reset valet pin
@@ -93,14 +95,32 @@ Everything not yet included will be when my Tesla is connected to my account and
 
 ## Installation
 
-Install [Dependencies](#dependencies). Import [Tesla_API_in_Tasker.prj.xml](https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/blob/master/Tesla_API_in_Tasker.prj.xml) on your Android Phone using Tasker, see [Tasker-FAQs](https://tasker.joaoapps.com/userguide/en/faqs/faq-how.html#q) on how to import xml files.
+Install [Dependencies](#dependencies).
+
+The easiest way is to open the [Taskernet url](https://taskernet.com/shares/?user=AS35m8mPVeymuldo3aQ2E0w%2Fp%2FdMHwTGvFh2n1G5x85hnLdHZqYoME1ldso6LRp%2Bcuv%2FWQNaht3AkEhes%2FTJwbA%3D&id=Project%3ATesla+API+in+Tasker) on you Android Phone and press import.
+
+If you prefer to install in manually: Import [Tesla_API_in_Tasker.prj.xml](https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/blob/master/Tesla_API_in_Tasker.prj.xml) on your Android Phone using Tasker, see [Tasker-FAQs](https://tasker.joaoapps.com/userguide/en/faqs/faq-how.html#q) on how to import xml files.
 It is recommended to backup your data first.
+
+## Update
+
+To update Tesla API in Tasker the same steps as described under [Installation](#installation) are necessary.
+
+## Usage
+
+This project provides Tasker tasks to access the Tesla API. To use them in your own automation projects/tasks/profiles/scenes in Tasker just call the function: use the "Perform Task" Action in Tasker to call the desired function.
+
+If parameters are needed the function name gives you a hint about what is needed. For example: "set temps (driver temp, passenger temp default:20.5)" --> this function accepts two parameters, driver temp and passenger temp. If both or one is not given, the default value is taken, in this case 20.5. To call the function with the parameters use the "Perform Task" action and use "Parameter 1" and "Parameter 2" for the parameters you want to set.
+
+You only need to call the function you want, for example set temps (driver temp, passenger temp default:20.5). The Tesla API in Tasker project does take care of the token, wakeup and other preconditions.
+
+Do not store your own automation tasks within the Tesla API in Tasker Project in Tasker to prevent data loss when updating Tesla API in Tasker.
 
 ## Contributing
 
 All contributions are welcome and greatly appreciated!
 
-## Dontation
+## Donation
 
 Maintaining this project isn't effortless, or free. If you would like to kick in and help me cover those costs, that would be awesome. If you don't, no problem; just share your love and show your support.
 

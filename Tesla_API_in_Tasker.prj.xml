@@ -4,7 +4,18 @@
 		<cdate>1568960724812</cdate>
 		<name>Tesla API in Tasker</name>
 		<scenes>Tesla_Login_Data,Popup</scenes>
-		<tids>51,64,48,49,47,43,58,68,50,52,53,55,67,60,62,36,39,56,61,54,57,46,37,45,44,42,40,63,65,66,59,41</tids>
+		<tids>58,49,64,47,50,48,52,65,67,51,41,66,46,68,63,54,45,53,60,40,59,37,57,43,39,62,61,42,56,36,44,55</tids>
+		<Share sr="Share">
+			<d>Access the Tesla API in Tasker (Android App)
+
+This is a Tasker Profile to access the unofficial Tesla API.
+
+Dependencies:
+AutoTools (can be removed with JavaScriplets to read JSON and removing AutoTools Text action)
+
+for more info see: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker</d>
+			<t></t>
+		</Share>
 	</Project>
 	<Scene sr="scenePopup">
 		<cdate>1566589345450</cdate>
