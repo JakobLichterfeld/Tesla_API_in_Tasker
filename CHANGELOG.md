@@ -4,6 +4,14 @@
 
 ### New Features
 
+### Enhancements
+  
+### Bug Fixes
+
+## [0.4.0] - 2019-11-03
+
+### New Features
+
 - auto conditioning start
 - auto conditioning stop
 - set remote seat heater request (heater=0..5,  level=0...3 default:0=driver,3=max)
@@ -84,7 +92,8 @@
 
 - Initial release
 
-[unreleased]: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/compare/v0.3.0...HEAD
+[unreleased]: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/compare/v0.1.0...v0.1.1
