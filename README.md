@@ -5,7 +5,7 @@
 
 Access the Tesla API in Tasker (Android App)
 
-This is a [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) Profile to access the unofficial Tesla API.
+This is a [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) Profile to access the [unofficial Tesla API](https://tesla-api.timdorr.com/).
 
 The idea was born during discussing a [feature request](https://github.com/adriankumpf/teslamate/issues/156) for [TeslaMate](https://github.com/adriankumpf/teslamate)
 
