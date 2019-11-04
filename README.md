@@ -61,11 +61,12 @@ Token will be refreshed when expires in 10 or less days.
 - [x] media prev fav
 - [x] media volume up
 - [x] media volume down
-- [ ] set navigation request
+- [ ] sharing
 - [ ] get climate state
 - [x] set temps (driver temp, passenger temp default:20.5)
 - [x] auto conditioning start
 - [x] auto conditioning stop
+- [ ] set preconditioning max
 - [x] set remote seat heater request (heater=0..5,  level=0...3 default:0=driver,3=max)
 - [x] set remote steering wheel heater request (true|false default:true)
 - [ ] get charge state
@@ -76,8 +77,9 @@ Token will be refreshed when expires in 10 or less days.
 - [x] charge port door close
 - [x] charge start (untested)
 - [x] charge stop (untested)
+- [ ] window control
 - [ ] get drive state
-- [ ] ~remote start drive~ (will not be included, because current Tesla account password is needed)
+- [ ] ~remote start drive~ (will not be included, because current Tesla account password is needed, which is not stored)
 - [ ] upcoming calendar entries
 - [ ] set valet mode
 - [ ] reset valet pin
@@ -85,6 +87,7 @@ Token will be refreshed when expires in 10 or less days.
 - [ ] speed limit deactivate
 - [ ] speed limit set limit
 - [ ] speed limit clear pin
+- [ ] trigger homelink
 
 Everything not yet included will be when my Tesla is connected to my account and I am able to test the tasks.
 
