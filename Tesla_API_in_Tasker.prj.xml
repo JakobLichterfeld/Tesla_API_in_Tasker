@@ -3,8 +3,8 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1568960724812</cdate>
 		<name>Tesla API in Tasker</name>
-		<scenes>Tesla_Login_Data,Popup</scenes>
-		<tids>58,49,64,47,50,48,52,65,67,51,41,66,46,68,63,54,45,53,60,40,59,37,57,43,39,62,61,42,56,36,44,55</tids>
+		<scenes>Popup,Tesla_Login_Data</scenes>
+		<tids>50,52,48,47,58,68,70,49,59,64,55,51,65,46,66,61,69,56,60,42,43,45,62,39,41,67,63,57,37,54,53,36,44,40</tids>
 		<Share sr="Share">
 			<d>Access the Tesla API in Tasker (Android App)
 
@@ -212,7 +212,7 @@ for more info see: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker</d>
 	</Scene>
 	<Task sr="task36">
 		<cdate>1569010367359</cdate>
-		<edate>1572596819253</edate>
+		<edate>1572954101135</edate>
 		<id>36</id>
 		<nme>Tesla API auto conditioning start</nme>
 		<pri>100</pri>
@@ -594,7 +594,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task37">
 		<cdate>1569010367359</cdate>
-		<edate>1572596858733</edate>
+		<edate>1572954104570</edate>
 		<id>37</id>
 		<nme>Tesla API auto conditioning stop</nme>
 		<pri>100</pri>
@@ -976,7 +976,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task39">
 		<cdate>1569010367359</cdate>
-		<edate>1572596848142</edate>
+		<edate>1572954118640</edate>
 		<id>39</id>
 		<nme>Tesla API set remote seat heater request (heater=0..5,  level=0...3 default:0=driver,3=max)</nme>
 		<pri>100</pri>
@@ -1228,6 +1228,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>548</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%response
 %result</Str>
 			<Int sr="arg1" val="1"/>
@@ -1416,7 +1417,7 @@ level to %par2</Str>
 	</Task>
 	<Task sr="task40">
 		<cdate>1569010367359</cdate>
-		<edate>1572596884778</edate>
+		<edate>1572954121846</edate>
 		<id>40</id>
 		<nme>Tesla API set remote steering wheel heater request (true|false default:true)</nme>
 		<pri>100</pri>
@@ -1641,6 +1642,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>548</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
@@ -1813,7 +1815,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task41">
 		<cdate>1569010367359</cdate>
-		<edate>1572597025055</edate>
+		<edate>1572954138613</edate>
 		<id>41</id>
 		<nme>Tesla API set charge limit (0...100 default:80)</nme>
 		<pri>100</pri>
@@ -2038,6 +2040,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>548</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
@@ -2604,7 +2607,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task43">
 		<cdate>1569010367359</cdate>
-		<edate>1572596956132</edate>
+		<edate>1572954131512</edate>
 		<id>43</id>
 		<nme>Tesla API set charge limit standard</nme>
 		<pri>100</pri>
@@ -2986,7 +2989,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task44">
 		<cdate>1569010367359</cdate>
-		<edate>1572702827105</edate>
+		<edate>1572954144009</edate>
 		<id>44</id>
 		<nme>Tesla API charge port door open</nme>
 		<pri>100</pri>
@@ -3368,7 +3371,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task45">
 		<cdate>1569010367359</cdate>
-		<edate>1572702835667</edate>
+		<edate>1572954150093</edate>
 		<id>45</id>
 		<nme>Tesla API charge port door close</nme>
 		<pri>100</pri>
@@ -3750,7 +3753,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task46">
 		<cdate>1569010367359</cdate>
-		<edate>1572596174297</edate>
+		<edate>1572954152993</edate>
 		<id>46</id>
 		<nme>Tesla API charge start</nme>
 		<pri>100</pri>
@@ -4172,14 +4175,14 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task50">
 		<cdate>1569008999678</cdate>
-		<edate>1572596570839</edate>
+		<edate>1572978054767</edate>
 		<id>50</id>
 		<nme>Tesla API set const</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%Tesla_API_in_Tasker_Version</Str>
-			<Str sr="arg1" ve="3">v0.4.0</Str>
+			<Str sr="arg1" ve="3">v0.5.0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4229,7 +4232,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task51">
 		<cdate>1569010367359</cdate>
-		<edate>1570736585692</edate>
+		<edate>1572954002349</edate>
 		<id>51</id>
 		<nme>Tesla API get vehicles</nme>
 		<pri>100</pri>
@@ -4676,7 +4679,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task52">
 		<cdate>1569010367359</cdate>
-		<edate>1570707428142</edate>
+		<edate>1572954007352</edate>
 		<id>52</id>
 		<nme>Tesla API wakeup</nme>
 		<pri>100</pri>
@@ -5029,7 +5032,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task53">
 		<cdate>1569010367359</cdate>
-		<edate>1572594871253</edate>
+		<edate>1572954026523</edate>
 		<id>53</id>
 		<nme>Tesla API set sentry mode (true|false default:true)</nme>
 		<pri>100</pri>
@@ -5254,6 +5257,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>548</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%result</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
@@ -5297,10 +5301,22 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>13</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>true</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>false</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -5426,7 +5442,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task54">
 		<cdate>1569010367359</cdate>
-		<edate>1570724525536</edate>
+		<edate>1572954055904</edate>
 		<id>54</id>
 		<nme>Tesla API door unlock</nme>
 		<pri>100</pri>
@@ -5808,7 +5824,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task55">
 		<cdate>1569010367359</cdate>
-		<edate>1570638736291</edate>
+		<edate>1572954035269</edate>
 		<id>55</id>
 		<nme>Tesla API door lock</nme>
 		<pri>100</pri>
@@ -6190,7 +6206,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task56">
 		<cdate>1569010367359</cdate>
-		<edate>1570782681684</edate>
+		<edate>1572954061750</edate>
 		<id>56</id>
 		<nme>Tesla API actuate trunk (rear|front default:rear)</nme>
 		<pri>100</pri>
@@ -6415,6 +6431,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>548</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%response
 %result</Str>
 			<Int sr="arg1" val="1"/>
@@ -6459,10 +6476,22 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
 					<op>13</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>rear</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>front</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -6588,7 +6617,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task57">
 		<cdate>1569010367359</cdate>
-		<edate>1570633489082</edate>
+		<edate>1572954065568</edate>
 		<id>57</id>
 		<nme>Tesla API honk horn</nme>
 		<pri>100</pri>
@@ -6970,7 +6999,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task58">
 		<cdate>1568902922643</cdate>
-		<edate>1570684933674</edate>
+		<edate>1572953982759</edate>
 		<id>58</id>
 		<nme>Tesla API Token Get/Refresh/Valid</nme>
 		<pri>100</pri>
@@ -7742,7 +7771,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task59">
 		<cdate>1569010367359</cdate>
-		<edate>1570724507974</edate>
+		<edate>1572954068203</edate>
 		<id>59</id>
 		<nme>Tesla API flash lights</nme>
 		<pri>100</pri>
@@ -8124,7 +8153,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task60">
 		<cdate>1569010367359</cdate>
-		<edate>1570782726428</edate>
+		<edate>1572954071179</edate>
 		<id>60</id>
 		<nme>Tesla API media toggle playback</nme>
 		<pri>100</pri>
@@ -8506,7 +8535,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task61">
 		<cdate>1569010367359</cdate>
-		<edate>1570782734868</edate>
+		<edate>1572954077148</edate>
 		<id>61</id>
 		<nme>Tesla API media next track</nme>
 		<pri>100</pri>
@@ -8888,7 +8917,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task62">
 		<cdate>1569010367359</cdate>
-		<edate>1570782740468</edate>
+		<edate>1572954074055</edate>
 		<id>62</id>
 		<nme>Tesla API media prev track</nme>
 		<pri>100</pri>
@@ -9270,7 +9299,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task63">
 		<cdate>1569010367359</cdate>
-		<edate>1570782750078</edate>
+		<edate>1572954080070</edate>
 		<id>63</id>
 		<nme>Tesla API media next fav</nme>
 		<pri>100</pri>
@@ -9652,7 +9681,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task64">
 		<cdate>1569010367359</cdate>
-		<edate>1570782756868</edate>
+		<edate>1572954083528</edate>
 		<id>64</id>
 		<nme>Tesla API media prev fav</nme>
 		<pri>100</pri>
@@ -10034,7 +10063,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task65">
 		<cdate>1569010367359</cdate>
-		<edate>1572591470128</edate>
+		<edate>1572954087028</edate>
 		<id>65</id>
 		<nme>Tesla API media volume up</nme>
 		<pri>100</pri>
@@ -10416,7 +10445,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task66">
 		<cdate>1569010367359</cdate>
-		<edate>1570782770232</edate>
+		<edate>1572954089528</edate>
 		<id>66</id>
 		<nme>Tesla API media volume down</nme>
 		<pri>100</pri>
@@ -10798,7 +10827,7 @@ Content-Type:application/json</Str>
 	</Task>
 	<Task sr="task67">
 		<cdate>1569010367359</cdate>
-		<edate>1572594346059</edate>
+		<edate>1572954095670</edate>
 		<id>67</id>
 		<nme>Tesla API set temps (driver temp, passenger temp default:20.5)</nme>
 		<pri>100</pri>
@@ -11050,6 +11079,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>548</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%response
 %result</Str>
 			<Int sr="arg1" val="1"/>
@@ -11214,7 +11244,7 @@ passenger temp to %par2</Str>
 	</Task>
 	<Task sr="task68">
 		<cdate>1569010367359</cdate>
-		<edate>1572596200633</edate>
+		<edate>1572954147353</edate>
 		<id>68</id>
 		<nme>Tesla API charge stop</nme>
 		<pri>100</pri>
@@ -11592,6 +11622,827 @@ Content-Type:application/json</Str>
 					<rhs>200</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task69">
+		<cdate>1569010367359</cdate>
+		<edate>1572954158195</edate>
+		<id>69</id>
+		<nme>Tesla API window control (close|vent default:close)</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Tesla API set const</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%tesla_api_const</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>1447159672</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<BestMatch>&lt;null&gt;</BestMatch>
+					<BestMatch-type>java.lang.String</BestMatch-type>
+					<CountRepeatItems>false</CountRepeatItems>
+					<CountRepeatItems-type>java.lang.Boolean</CountRepeatItems-type>
+					<CurrencyLocale>&lt;null&gt;</CurrencyLocale>
+					<CurrencyLocale-type>java.lang.String</CurrencyLocale-type>
+					<DipToPixels>false</DipToPixels>
+					<DipToPixels-type>java.lang.Boolean</DipToPixels-type>
+					<EncryptOrDecript>&lt;null&gt;</EncryptOrDecript>
+					<EncryptOrDecript-type>java.lang.String</EncryptOrDecript-type>
+					<EncryptPassword>&lt;null&gt;</EncryptPassword>
+					<EncryptPassword-type>java.lang.String</EncryptPassword-type>
+					<FormatNumbers>false</FormatNumbers>
+					<FormatNumbers-type>java.lang.Boolean</FormatNumbers-type>
+					<GroupingSeparator>&lt;null&gt;</GroupingSeparator>
+					<GroupingSeparator-type>java.lang.String</GroupingSeparator-type>
+					<Joiner>&lt;null&gt;</Joiner>
+					<Joiner-type>java.lang.String</Joiner-type>
+					<JoinerVariable>atjoinedtext</JoinerVariable>
+					<JoinerVariable-type>java.lang.String</JoinerVariable-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<MatchesText>&lt;null&gt;</MatchesText>
+					<MatchesText-type>java.lang.String</MatchesText-type>
+					<Monetize>false</Monetize>
+					<Monetize-type>java.lang.Boolean</Monetize-type>
+					<NumberFormat>&lt;null&gt;</NumberFormat>
+					<NumberFormat-type>java.lang.String</NumberFormat-type>
+					<PadRight>false</PadRight>
+					<PadRight-type>java.lang.Boolean</PadRight-type>
+					<PaddingCharacther>&lt;null&gt;</PaddingCharacther>
+					<PaddingCharacther-type>java.lang.String</PaddingCharacther-type>
+					<PaddingNumber>&lt;null&gt;</PaddingNumber>
+					<PaddingNumber-type>java.lang.String</PaddingNumber-type>
+					<PixelsToDip>false</PixelsToDip>
+					<PixelsToDip-type>java.lang.Boolean</PixelsToDip-type>
+					<Prefix>&lt;null&gt;</Prefix>
+					<Prefix-type>java.lang.String</Prefix-type>
+					<RGBToHSV>false</RGBToHSV>
+					<RGBToHSV-type>java.lang.Boolean</RGBToHSV-type>
+					<RGBToInt>false</RGBToInt>
+					<RGBToInt-type>java.lang.Boolean</RGBToInt-type>
+					<RGBToPhillipsHueColor>false</RGBToPhillipsHueColor>
+					<RGBToPhillipsHueColor-type>java.lang.Boolean</RGBToPhillipsHueColor-type>
+					<RandomVariable>&lt;null&gt;</RandomVariable>
+					<RandomVariable-type>java.lang.String</RandomVariable-type>
+					<RegexReplacements>false</RegexReplacements>
+					<RegexReplacements-type>java.lang.Boolean</RegexReplacements-type>
+					<Remove>&lt;null&gt;</Remove>
+					<Remove-type>java.lang.String</Remove-type>
+					<Replacements>&lt;null&gt;</Replacements>
+					<Replacements-type>java.lang.String</Replacements-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<Text>%tesla_api_const</Text>
+					<Text-type>java.lang.String</Text-type>
+					<TextToDigits>false</TextToDigits>
+					<TextToDigits-type>java.lang.Boolean</TextToDigits-type>
+					<TextToggle>&lt;null&gt;</TextToggle>
+					<TextToggle-type>java.lang.String</TextToggle-type>
+					<Trim>false</Trim>
+					<Trim-type>java.lang.Boolean</Trim-type>
+					<URLEncode>false</URLEncode>
+					<URLEncode-type>java.lang.Boolean</URLEncode-type>
+					<VariableName>%tesla_api_url,%client_id,%client_secret</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Text: %tesla_api_const
+Variable Name: %tesla_api_url,%client_id,%client_secret
+Joiner Variable: atjoinedtext
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%client_id
+"client_id"
+Value for "client_id"&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%client_secret
+"client_secret"
+Value for "client_secret"&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%tesla_api_url
+"tesla_api_url"
+Value for "tesla_api_url"&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Text VariableName Separator JoinerVariable plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>ba59c109-f1ff-4033-971b-9ab706586d09</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentText</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigText</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>0</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%response</Str>
+			<Str sr="arg1" ve="3">%http_data</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>result</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>0</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%response</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName></VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Input Format: Json
+Simple Mode: true
+Json: %response
+Fields: result
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%result
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field Separator InputFormat plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>7da0f35f-b56d-4444-a0d2-cbb3ce1db108</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%response
+%result</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%result</lhs>
+					<op>1</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">no</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Tesla API: window control %par1</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">yes</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">close</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>close</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>vent</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">no</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">no</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Tesla API Token Get/Refresh/Valid</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%token_usable</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%token_usable</lhs>
+					<op>0</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Tesla API get vehicles</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Tesla_id</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Tesla_id</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Tesla API wakeup</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%woken_up</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%woken_up</lhs>
+					<op>0</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>339</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_data
+Data
+Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%tesla_api_url/api/1/vehicles/%Tesla_id/command/window_control</Str>
+			<Str sr="arg3" ve="3">Authorization:Bearer %Tesla_token
+Content-Type:application/json</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">{"command": "%par1", "lat": "0", "lon": "0"}</Str>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task70">
+		<cdate>1569010367359</cdate>
+		<edate>1572954114729</edate>
+		<id>70</id>
+		<nme>Tesla API set preconditioning max (true|false default:true)</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Tesla API set const</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%tesla_api_const</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>1447159672</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<BestMatch>&lt;null&gt;</BestMatch>
+					<BestMatch-type>java.lang.String</BestMatch-type>
+					<CountRepeatItems>false</CountRepeatItems>
+					<CountRepeatItems-type>java.lang.Boolean</CountRepeatItems-type>
+					<CurrencyLocale>&lt;null&gt;</CurrencyLocale>
+					<CurrencyLocale-type>java.lang.String</CurrencyLocale-type>
+					<DipToPixels>false</DipToPixels>
+					<DipToPixels-type>java.lang.Boolean</DipToPixels-type>
+					<EncryptOrDecript>&lt;null&gt;</EncryptOrDecript>
+					<EncryptOrDecript-type>java.lang.String</EncryptOrDecript-type>
+					<EncryptPassword>&lt;null&gt;</EncryptPassword>
+					<EncryptPassword-type>java.lang.String</EncryptPassword-type>
+					<FormatNumbers>false</FormatNumbers>
+					<FormatNumbers-type>java.lang.Boolean</FormatNumbers-type>
+					<GroupingSeparator>&lt;null&gt;</GroupingSeparator>
+					<GroupingSeparator-type>java.lang.String</GroupingSeparator-type>
+					<Joiner>&lt;null&gt;</Joiner>
+					<Joiner-type>java.lang.String</Joiner-type>
+					<JoinerVariable>atjoinedtext</JoinerVariable>
+					<JoinerVariable-type>java.lang.String</JoinerVariable-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<MatchesText>&lt;null&gt;</MatchesText>
+					<MatchesText-type>java.lang.String</MatchesText-type>
+					<Monetize>false</Monetize>
+					<Monetize-type>java.lang.Boolean</Monetize-type>
+					<NumberFormat>&lt;null&gt;</NumberFormat>
+					<NumberFormat-type>java.lang.String</NumberFormat-type>
+					<PadRight>false</PadRight>
+					<PadRight-type>java.lang.Boolean</PadRight-type>
+					<PaddingCharacther>&lt;null&gt;</PaddingCharacther>
+					<PaddingCharacther-type>java.lang.String</PaddingCharacther-type>
+					<PaddingNumber>&lt;null&gt;</PaddingNumber>
+					<PaddingNumber-type>java.lang.String</PaddingNumber-type>
+					<PixelsToDip>false</PixelsToDip>
+					<PixelsToDip-type>java.lang.Boolean</PixelsToDip-type>
+					<Prefix>&lt;null&gt;</Prefix>
+					<Prefix-type>java.lang.String</Prefix-type>
+					<RGBToHSV>false</RGBToHSV>
+					<RGBToHSV-type>java.lang.Boolean</RGBToHSV-type>
+					<RGBToInt>false</RGBToInt>
+					<RGBToInt-type>java.lang.Boolean</RGBToInt-type>
+					<RGBToPhillipsHueColor>false</RGBToPhillipsHueColor>
+					<RGBToPhillipsHueColor-type>java.lang.Boolean</RGBToPhillipsHueColor-type>
+					<RandomVariable>&lt;null&gt;</RandomVariable>
+					<RandomVariable-type>java.lang.String</RandomVariable-type>
+					<RegexReplacements>false</RegexReplacements>
+					<RegexReplacements-type>java.lang.Boolean</RegexReplacements-type>
+					<Remove>&lt;null&gt;</Remove>
+					<Remove-type>java.lang.String</Remove-type>
+					<Replacements>&lt;null&gt;</Replacements>
+					<Replacements-type>java.lang.String</Replacements-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<Text>%tesla_api_const</Text>
+					<Text-type>java.lang.String</Text-type>
+					<TextToDigits>false</TextToDigits>
+					<TextToDigits-type>java.lang.Boolean</TextToDigits-type>
+					<TextToggle>&lt;null&gt;</TextToggle>
+					<TextToggle-type>java.lang.String</TextToggle-type>
+					<Trim>false</Trim>
+					<Trim-type>java.lang.Boolean</Trim-type>
+					<URLEncode>false</URLEncode>
+					<URLEncode-type>java.lang.Boolean</URLEncode-type>
+					<VariableName>%tesla_api_url,%client_id,%client_secret</VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Text: %tesla_api_const
+Variable Name: %tesla_api_url,%client_id,%client_secret
+Joiner Variable: atjoinedtext
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%client_id
+"client_id"
+Value for "client_id"&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%client_secret
+"client_secret"
+Value for "client_secret"&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%tesla_api_url
+"tesla_api_url"
+Value for "tesla_api_url"&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Text VariableName Separator JoinerVariable plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>ba59c109-f1ff-4033-971b-9ab706586d09</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentText</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigText</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>0</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%response</Str>
+			<Str sr="arg1" ve="3">%http_data</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>1446874931</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Average>&lt;null&gt;</Average>
+					<Average-type>java.lang.String</Average-type>
+					<Field>result</Field>
+					<Field-type>java.lang.String</Field-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<GetParentValues>false</GetParentValues>
+					<GetParentValues-type>java.lang.Boolean</GetParentValues-type>
+					<InputFormat>0</InputFormat>
+					<InputFormat-type>java.lang.String</InputFormat-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<Json>%response</Json>
+					<Json-type>java.lang.String</Json-type>
+					<JsonRootVariable>&lt;null&gt;</JsonRootVariable>
+					<JsonRootVariable-type>java.lang.String</JsonRootVariable-type>
+					<MatchField>&lt;null&gt;</MatchField>
+					<MatchField-type>java.lang.String</MatchField-type>
+					<MatchValue>&lt;null&gt;</MatchValue>
+					<MatchValue-type>java.lang.String</MatchValue-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<Max>&lt;null&gt;</Max>
+					<Max-type>java.lang.String</Max-type>
+					<MaxResults>&lt;null&gt;</MaxResults>
+					<MaxResults-type>java.lang.String</MaxResults-type>
+					<Min>&lt;null&gt;</Min>
+					<Min-type>java.lang.String</Min-type>
+					<Query>&lt;null&gt;</Query>
+					<Query-type>java.lang.String</Query-type>
+					<Separator>,</Separator>
+					<Separator-type>java.lang.String</Separator-type>
+					<SimpleMode>true</SimpleMode>
+					<SimpleMode-type>java.lang.Boolean</SimpleMode-type>
+					<SortArrayInvert>false</SortArrayInvert>
+					<SortArrayInvert-type>java.lang.Boolean</SortArrayInvert-type>
+					<SortArrayKey>&lt;null&gt;</SortArrayKey>
+					<SortArrayKey-type>java.lang.String</SortArrayKey-type>
+					<SortArrayObjectKey>&lt;null&gt;</SortArrayObjectKey>
+					<SortArrayObjectKey-type>java.lang.String</SortArrayObjectKey-type>
+					<Sum>&lt;null&gt;</Sum>
+					<Sum-type>java.lang.String</Sum-type>
+					<VariableName></VariableName>
+					<VariableName-type>java.lang.String</VariableName-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Input Format: Json
+Simple Mode: true
+Json: %response
+Fields: result
+Separator: ,</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%result
+Json Values
+Values of the fields you got from the json text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Json Field Separator InputFormat plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>7da0f35f-b56d-4444-a0d2-cbb3ce1db108</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentJson</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigJson</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%result</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%result</lhs>
+					<op>1</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">no</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Tesla API: preconditioning max set to %par1</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">yes</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3">true</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>true</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%par1</lhs>
+					<op>3</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">no</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">no</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Tesla API Token Get/Refresh/Valid</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%token_usable</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%token_usable</lhs>
+					<op>0</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Tesla API get vehicles</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Tesla_id</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%Tesla_id</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Tesla API wakeup</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%woken_up</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%woken_up</lhs>
+					<op>0</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>339</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_data
+Data
+Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%tesla_api_url/api/1/vehicles/%Tesla_id/command/set_preconditioning_max</Str>
+			<Str sr="arg3" ve="3">Authorization:Bearer %Tesla_token
+Content-Type:application/json</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3">{"on": "%par1"}</Str>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>

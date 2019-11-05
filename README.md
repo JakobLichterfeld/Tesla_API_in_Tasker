@@ -66,7 +66,7 @@ Token will be refreshed when expires in 10 or less days.
 - [x] set temps (driver temp, passenger temp default:20.5)
 - [x] auto conditioning start
 - [x] auto conditioning stop
-- [ ] set preconditioning max
+- [x] set preconditioning max (true|false default:true)
 - [x] set remote seat heater request (heater=0..5,  level=0...3 default:0=driver,3=max)
 - [x] set remote steering wheel heater request (true|false default:true)
 - [ ] get charge state
@@ -77,7 +77,7 @@ Token will be refreshed when expires in 10 or less days.
 - [x] charge port door close
 - [x] charge start (untested)
 - [x] charge stop (untested)
-- [ ] window control
+- [x] window control (close|vent default:close)
 - [ ] get drive state
 - [ ] ~remote start drive~ (will not be included, because current Tesla account password is needed, which is not stored)
 - [ ] upcoming calendar entries
@@ -115,7 +115,7 @@ This project provides Tasker tasks to access the Tesla API. To use them in your 
 
 If parameters are needed the function name gives you a hint about what is needed. For example: "set temps (driver temp, passenger temp default:20.5)" --> this function accepts two parameters, driver temp and passenger temp. If both or one is not given, the default value is taken, in this case 20.5. To call the function with the parameters use the "Perform Task" action and use "Parameter 1" and "Parameter 2" for the parameters you want to set.
 
-You only need to call the function you want, for example set temps (driver temp, passenger temp default:20.5). The Tesla API in Tasker project does take care of the token, wakeup and other preconditions.
+You only need to call the function you want, for example set temps (driver temp, passenger temp default:20.5). The Tesla API in Tasker project does take care of the token, wakeup and other preconditions. The task return true if it was successful and false if not.
 
 Do not store your own automation tasks within the Tesla API in Tasker Project in Tasker to prevent data loss when updating Tesla API in Tasker.
 
