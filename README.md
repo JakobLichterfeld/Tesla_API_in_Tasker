@@ -75,8 +75,8 @@ Token will be refreshed when expires in 10 or less days.
 - [x] set charge limit standard
 - [x] charge port door open
 - [x] charge port door close
-- [x] charge start (untested)
-- [x] charge stop (untested)
+- [x] charge start
+- [x] charge stop
 - [x] window control (close|vent default:close)
 - [ ] get drive state
 - [ ] ~remote start drive~ (will not be included, because current Tesla account password is needed, which is not stored)
