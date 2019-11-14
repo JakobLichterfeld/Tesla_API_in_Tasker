@@ -4,6 +4,8 @@
 
 ### New Features
 
+- get charge state (return battery_level)
+
 ### Enhancements
 
 ### Bug Fixes
