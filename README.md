@@ -69,7 +69,7 @@ Token will be refreshed when expires in 10 or less days.
 - [x] set preconditioning max (true|false default:true)
 - [x] set remote seat heater request (heater=0..5,  level=0...3 default:0=driver,3=max)
 - [x] set remote steering wheel heater request (true|false default:true)
-- [ ] get charge state
+- [ ] get charge state (return battery_level)
 - [x] set charge limit (0...100 default:80)
 - [x] set charge limit max range
 - [x] set charge limit standard
