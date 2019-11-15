@@ -69,7 +69,7 @@ Token will be refreshed when expires in 10 or less days.
 - [x] set preconditioning max (true|false default:true)
 - [x] set remote seat heater request (heater=0..5,  level=0...3 default:0=driver,3=max)
 - [x] set remote steering wheel heater request (true|false default:true)
-- [ ] get charge state (return battery_level)
+- [x] get charge state (return battery_level)
 - [x] set charge limit (0...100 default:80)
 - [x] set charge limit max range
 - [x] set charge limit standard
@@ -81,12 +81,12 @@ Token will be refreshed when expires in 10 or less days.
 - [ ] get drive state
 - [ ] ~remote start drive~ (will not be included, because current Tesla account password is needed, which is not stored)
 - [ ] upcoming calendar entries
-- [ ] set valet mode
-- [ ] reset valet pin
-- [ ] speed limit activate
-- [ ] speed limit deactivate
-- [ ] speed limit set limit
-- [ ] speed limit clear pin
+- [x] set valet mode (true|false, password default:true,)
+- [x] reset valet pin
+- [x] speed limit activate (4DigitPIN default:4321)
+- [x] speed limit deactivate (4DigitPIN default:4321)
+- [x] speed limit set limit mph (50...90 default:50)
+- [x] speed limit clear pin (4DigitPIN default:4321)
 - [ ] trigger homelink
 
 Everything not yet included will be when my Tesla is connected to my account and I am able to test the tasks.

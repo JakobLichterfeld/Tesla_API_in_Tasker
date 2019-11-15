@@ -4,9 +4,53 @@
 
 ### New Features
 
+### Enhancements
+
+### Bug Fixes
+
+## [0.6.0] - 2019-11-15
+
+### New Features
+
 - get charge state (return battery_level)
+- set valet mode (true|false, password default:true,)
+- reset valet pin
+- speed limit activate (4DigitPIN default:4321)
+- speed limit deactivate (4DigitPIN default:4321)
+- speed limit set limit mph (50...90 default:50)
+- speed limit clear pin (4DigitPIN default:4321)
 
 ### Enhancements
+
+- set temps: boundary check for parameter
+- Error message: flash reason if API call was not successful
+  - set sentry mode
+  - door unlock
+  - door lock
+  - actuate trunk
+  - honk horn
+  - flash lights
+  - media toggle playback
+  - media next track
+  - media prev track
+  - media next fav
+  - media prev fav
+  - media volume up
+  - media volume down
+  - set temps
+  - auto conditioning start
+  - auto conditioning stop
+  - set preconditioning max
+  - set remote seat heater request
+  - set remote steering wheel heater request
+  - set charge limit
+  - set charge limit max range
+  - set charge limit standard
+  - charge port door open
+  - charge port door close
+  - charge start
+  - charge stop
+  - window control
 
 ### Bug Fixes
 
@@ -68,7 +112,7 @@
 
 ### Enhancements
 
-- Installations steps: firs install dependencies added to be clear
+- Installations steps: first install dependencies added to be clear
   
 ### Bug Fixes
 
@@ -115,7 +159,8 @@
 
 - Initial release
 
-[unreleased]: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/compare/v0.5.0...HEAD
+[unreleased]: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/compare/v0.6.0...HEAD
+[0.6.0]: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/JakobLichterfeld/Tesla_API_in_Tasker/compare/v0.2.0...v0.3.0
