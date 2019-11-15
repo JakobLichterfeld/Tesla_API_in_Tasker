@@ -15,6 +15,7 @@ The idea was born during discussing a [feature request](https://github.com/adria
   <img src="screenshots/tasks.png" alt="Tasks" title="Tasks" width="180" height="320" />
   <img src="screenshots/tasks_2.png" alt="Tasks 2" title="Tasks 2" width="180" height="320" />
   <img src="screenshots/tasks_3.png" alt="Tasks 3" title="Tasks 3" width="180" height="320" />
+    <img src="screenshots/tasks_4.png" alt="Tasks 4" title="Tasks 3" width="180" height="320" />
   <img src="screenshots/scenes.png" alt="Scenes" title="Scenes" width="180" height="320" />
 </p>
 
